@@ -1,11 +1,11 @@
-trait TreasureBox {
-    fn open(&self, key_no: i32) -> bool;
-    fn check(&self);
-}
-
+#![allow(non_snake_case)]
 struct JewelryBox {
     price: i32,
     key_no: i32
+}
+trait TreasureBox {
+    fn open(&self, key_no: i32) -> bool;
+    fn check(&self);
 }
 
 impl TreasureBox for JewelryBox {
