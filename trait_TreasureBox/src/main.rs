@@ -14,7 +14,7 @@ impl TreasureBox for JewelryBox {
     }
 
     fn check(&self) {
-        println!("宝石箱だった！金貨{}枚入手。", self.price);
+        println!("宝石箱だった!金貨{}枚入手。", self.price);
     }
 }
 
