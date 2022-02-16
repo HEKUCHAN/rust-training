@@ -10,7 +10,7 @@ fn main() {
     }
 
     let infile = String::from(&args[1]);
-    let outfile = format!("{}-thimb.png", infile);
+    let outfile = format!("{}-thumb.png", infile);
     println!("input: {}", infile);
     println!("output: {}", outfile);
 
